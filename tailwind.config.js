@@ -10,6 +10,17 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primaryblue:"#1AA3B5",
+        raisinBlack:"#1D1E21"
+      },
+      screens: {
+        'phone': '376px',
+        'phone-sm': '426px',
+        'phone-320': '322px',
+        'table-850': '850px',
+      },
+      letterSpacing: {
+        'tight-custom': '-1.68px',
       },
     },
   },
