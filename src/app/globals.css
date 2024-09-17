@@ -17,11 +17,29 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+main {
+  flex: 1;
+}
+
+.container {
+  width: 100%;
+  max-width: 1320px;
+  padding: 0px 20px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+@media (max-width: 641px) {
+  .container {
+    padding: 0px 16px;
   }
 }
