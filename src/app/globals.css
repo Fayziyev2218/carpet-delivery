@@ -13,6 +13,9 @@
     --foreground: #ededed;
   }
 }
+::-webkit-scrollbar{
+  width: 0;
+}
 
 body {
   color: var(--foreground);
@@ -24,7 +27,6 @@ body {
 main {
   flex: 1;
 }
-
 .container {
   width: 100%;
   max-width: 1320px;
@@ -32,7 +34,11 @@ main {
   margin-right: auto;
   margin-left: auto;
 }
-
+.sendButton{
+  border-radius: 100px;
+  background: var(--Main-colours-white, #FFF);
+  box-shadow: 0px 14px 42px 0px rgba(3, 55, 167, 0.13);
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;
