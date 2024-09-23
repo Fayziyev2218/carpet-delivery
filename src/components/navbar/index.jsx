@@ -11,7 +11,7 @@ export default function Navbar(){
                     width={100}
                     height={41}
                 />
-                <button className='bg-black px-[16px] py-[6px] rounded-lg text-white text-[18px] font-medium leading-normal hover:bg-raisinBlack'>Записаться на курс</button>
+                <button className='bg-black z-40 px-[16px] py-[6px] rounded-lg text-white text-[18px] font-medium leading-normal hover:bg-raisinBlack'>Записаться на курс</button>
             </div>
         </div>
     )
