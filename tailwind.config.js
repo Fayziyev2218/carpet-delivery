@@ -12,7 +12,8 @@ module.exports = {
         foreground: "var(--foreground)",
         primaryblue:"#1AA3B5",
         raisinBlack:"#1D1E21",
-        lightGray:"#F5F5F5"
+        lightGray:"#F5F5F5",
+        lightBlue:"#E1F5F4",
       },
       screens: {
         'phone': '376px',

@@ -4,13 +4,16 @@ import Title from "@/components/title";
 import showCarpet from "/public/showCarpet.png";
 import illipss from "/public/illipss.png";
 import carpetOnly from "/public/carpetOnly.png";
-import { cleanCards, serviss, showcases } from "@/constants/cards";
+import { askedAbout, cleanCards, HowWork, serviss, showcases } from "@/constants/cards";
 import SendCard from "@/components/sendCrad";
-// bg-[url('/illipss.png')]
+
 export default function Home() {
   const clean = cleanCards;
   const showc = showcases;
   const servCard = serviss;
+  const HowWorkCard = HowWork;
+  const askedAboutCard = askedAbout;
+
   return (
     <div className="container">
       <section className="relative pt-[116px] pb-[58px] max-lg:pt-[50px] flex items-center  bg-no-repeat bg-cover bg-center">
@@ -163,6 +166,41 @@ export default function Home() {
               </div>
             );
           })}
+        </div>
+      </section>
+
+      <section className="mt-[169px] mb-[120px]">
+        <Title title={"Как мы работаем"}/>
+        <div className="mt-[39px] items-stretch flex justify-between gap-y-[24px] gap-x-[24px] flex-wrap">
+          {HowWorkCard.map((e)=>{
+            return(
+              <div key={e.id} className="w-[32%] max-xl:w-[31%] max-lg:w-[48%] max-sm:w-full flex flex-col items-center">
+                  <div className="w-full h-auto py-[25px] border rounded-[32px] flex items-center justify-center mb-[16px]">
+                    <Image src={e.img}/>
+                  </div>
+                  <p className="text-black text-center text-[32px] font-medium tracking-[-1.28px] mb-[12px]">{e.text}</p>
+                  <p className="text-black w-[80%] opacity-[0.6] text-center text-[16px] font-normal leading-[21px] tracking-[-0.64px]">{e.text2}</p>
+              </div>
+            )
+          })}
+        </div>
+      </section>
+
+      <section className="mb-[81px]">
+        <Title title={"О чем нас часто спрашивают"}/>
+        <div className="mt-[53px] flex items-stretch gap-[24px] flex-wrap">
+          {askedAboutCard.map((e)=>{
+            return(
+              <div key={e.id} className="w-[32%] max-xl:w-[31%] bg-white border border-[#A6C5CE] about-card rounded-[40px] pt-[24px] pl-[24px] pr-[24px] pb-[51px] max-xl:pb-[20px] max-lg:w-[48%] max-sm:w-full max-md:px-[20px]">
+                <div className="flex items-center justify-center w-[72px] h-[72px] bg-white border border-lightBlue rounded-full mb-[24px] max-xl:mb-[20px]">
+                  <Image src={e.img}/>
+                </div>
+                <h3 className="text-raisinBlack text-[20px] font-bold leading-[24px] mb-[16px]">{e.text}</h3>
+                <p className="text-[#7F9B99] text-[18px] font-normal leading-[27px]">{e.text2}</p>
+              </div>
+            )
+          })}
+          
         </div>
       </section>
 

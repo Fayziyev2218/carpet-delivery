@@ -50,3 +50,18 @@ main {
     padding: 0px 16px;
   }
 }
+
+.about-card:nth-child(1){
+  background-color: #E1F5F4;
+  border: none;
+}
+.about-card:nth-child(3){
+  background-color: #E1F5F4;
+  border: none;
+
+}
+.about-card:nth-child(5){
+  background-color: #E1F5F4;
+  border: none;
+
+}
