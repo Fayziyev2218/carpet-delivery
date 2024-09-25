@@ -56,7 +56,15 @@ export default function Home() {
       </section>
 
       <section>
-        <Banner />
+        <Banner 
+        title={"Бесплатный вызов и доставка ковров"}
+        text={"Мы бесплатно приедем за вашим ковром и привезем его обратно"}
+        button={true}
+        img={true}
+        infoTel={false}
+
+
+        />
       </section>
 
       <section className="pt-[111px] pb-[58px]">
@@ -204,7 +212,20 @@ export default function Home() {
         </div>
       </section>
 
-      
+      <section>
+        <Banner 
+        title={"Свяжитесь с нами"} 
+        text={"Мы бесплатно приедем за вашим ковром и привезем его обратно"}
+        text3={"Заказы доставляются ежедневноПн – Сб:  900 до 21.00"}
+        text4={"Привезти ковёр самостоятельно можно по адресу:"}
+        tel1={"+998 (77) 123-34-56"}
+        tel2={"+998 (77) 123-34-56"}
+        address={"г. Ташкент, Яккасарайский район, ул. Бабура, 3"}
+        img2={true}
+        infoTel={true}
+        />
+      </section>
+
     </div>
   );
 }

@@ -7,6 +7,10 @@ import star from "/public/star.svg";
 import servise from '/public/servise.png'
 import serviseButton from '/public/serviseButton.png'
 import HowWorkImg from "/public/HowWork.png";
+import HowWorkImg2 from "/public/HowWork2.png";
+import HowWorkImg5 from "/public/HowWork5.png";
+import HowWorkImg4 from "/public/HowWork4.png";
+import HowWorkImg6 from "/public/HowWork6.png";
 import HowWorkImg3 from "/public/howWork3.png";
 import question from "/public/question.svg";
 
@@ -93,7 +97,7 @@ export const HowWork = [
     },
     {   
         id:"2",
-        img:HowWorkImg,
+        img:HowWorkImg2,
         text:"2. Чистим",
         text2:"Чистим ковёр с помощью специализированных ковромоечных машин индивидуально подобранными шампунями, после чего полностью выполаскиваем."
     },
@@ -105,19 +109,19 @@ export const HowWork = [
     },
     {   
         id:"4",
-        img:HowWorkImg,
+        img:HowWorkImg4,
         text:"4. Сушим",
         text2:"Сушим ковёр в специальной камере при оптимальной температуре 30-40 градусов с применением промышленных осушителей воздуха."
     },
     {   
         id:"5",
-        img:HowWorkImg,
+        img:HowWorkImg5,
         text:"5. Упаковываем",
         text2:"Чтобы сохранить ковёр чистым и свежим, мы упаковываем его в фирменный пакет."
     },
     {   
         id:"6",
-        img:HowWorkImg,
+        img:HowWorkImg6,
         text:"6. Привозим ковёр",
         text2:"Курьер привозит ковёр, вы подписываете акт приёмки работы и оплачиваете."
     },

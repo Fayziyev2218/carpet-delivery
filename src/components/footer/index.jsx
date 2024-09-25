@@ -2,7 +2,7 @@
 
 export default function Footer(){
     return(
-        <div>
+        <div className="mt-[200px] max-sm:mt-[100px]">
             <div className="container">
                <div className=" flex items-center justify-between pb-[27px] max-table-850:flex-wrap max-table-850:gap-[20px]">
                     <ul className="flex items-center gap-x-[30px] max-lg:flex-wrap">
