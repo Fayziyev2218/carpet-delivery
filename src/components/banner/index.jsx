@@ -15,6 +15,7 @@ export default function Banner({ title, text, button, text3, text4, tel1, tel2, 
                         <p className='text-white text-[14px] font-normal leading-normal tracking-[-0.56px] opacity-[0.6] mb-[11px]'>{text3}</p>
                         <a className='text-white text-[20px] font-medium leading-normal tracking-[-0.8px] mb-[11px]' href="tel:+998 (77) 123-34-56">{tel1}</a>
                         <a className='text-white text-[20px] font-medium leading-normal tracking-[-0.8px]' href="tel:+998 (77) 123-34-56">{tel2}</a>
+                        <a className='text-white text-[20px] font-medium leading-normal tracking-[-0.8px]' href="tel:+998 (77) 123-34-56">{tel2}</a>
                     </div>
 
                     <div className='flex flex-col'>
